@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Microsoft Yahei',sans-serif;
+    height: 100%;
+}
+p,a{
+    color: #ffffff;
+}
+a {
+    text-decoration: none;  // 去除下划线
+}
+.container{
+    width: 100%;
+    max-width: 685px;
+    margin: 0 auto;
+    background-color: rgb(104,205,213);
+}
+.nav{
+    position: relative;
+    background-color: rgb(34,41,44);
+ }
+.back{
+    display: inline-block;
+    width: 2.33%;
+    max-width: 20px;
+    position: absolute;
+    top: 33%;
+    left: 3%;
+}
+.back img{
+    width: 100%;
+}
+.nav a{
+    position: absolute;
+    font-size: 2.35rem;
+    top: 27%;
+    left: 7.6%;
+}
+.nav p{
+    width: 100%;
+    font-size: 4.3rem;
+    text-align: center;
+    margin: 17.5px 0;
+    display: inline-block;
+}
+.index{
+    width: 6.778%;
+    max-width: 39px;
+    top: 38%;
+    right: 2.8%;
+    position: absolute;
+}
+.index img{
+    width: 100%;
+}
+.content{
+    height: 768px;
+    position: relative;
+}
+.img_back{
+    left: 4.8%;
+    margin-top: 2.5%;
+    position: relative;
+}
+.grape{
+    left: 25%;
+    top: 13.4%;
+    position: absolute;
+}
+.game_content{
+    font-size: 2.7rem;
+    margin: 31% 11rem;
+    line-height: 190%;
+    position: relative;
+}
+.footer{
+    display: block;
+    position: relative;
+    bottom: 13.9%;
+}
+.cluster{
+    margin-left: 25% ;
+    position: absolute;
+}
+.cluster p{
+    font-size: 2.3rem;
+    top:13px;
+    left: -13%;
+    position: relative;
+}
+.logo{
+    margin-left: 66%;
+}
+.logo p{
+    font-size: 2.3rem;
+    top:13px;
+    top:13px;
+    left: -7%;
+    position: relative;
+}
